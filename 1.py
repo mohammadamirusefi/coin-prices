@@ -43,7 +43,7 @@ async def personality(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 def main() -> None:
 
-    application = Application.builder().token("8433308526:AAHj68OfYfr-ce5IRvpEMvdICgd3lKH7sFU").build()
+    application = Application.builder().token("token").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help",help_cammand))
